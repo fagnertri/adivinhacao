@@ -1,6 +1,15 @@
 #include <stdio.h>
 int main(){
-  printf("***********************");
-  printf("*Bem-vindo ao jogo de adivinhação*");
-  printf("***********************");
-  }
+  printf("***********************\n");
+  printf("*Bem-vindo ao jogo de adivinhação\n*");
+  printf("***********************\n");
+int numerosecreto;
+numerosecreto = 42;
+//imprimindo somente o número
+printf("%d\n",42);
+//no meio da frase
+printf(" O número %d é secreto!\n");
+    int chute;
+    printf ("Qual é o seu chute?\n");
+    scanf("%d\n", &chute);
+    printf("Você chutou o número %d!\n",chute);
